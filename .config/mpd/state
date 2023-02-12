@@ -1,0 +1,38 @@
+sw_volume: 100
+audio_device_state:1:Pulse Output
+audio_device_state:1:my_fifo
+state: pause
+current: 5
+time: 15.697000
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:＂FOK JULLE NAAIERS＂ by DIE ANTWOORD (Official) [L-wpS49KN00].mp3
+1:＂Super Psyche＂ The Constructus Corporation [FoH4uQx-cIo].mp3
+2:Darkthrone - Hate Cloak [lSt_1mw_o74].mp3
+3:Babes In Toyland - Won't Tell (Video) [InxIptiU82Q].mp3
+4:'I FINK U FREEKY' by DIE ANTWOORD (Official) [8Uee_mcxvrw].mp3
+5:Chainsaw Gutsfuck [OuZhNN9KRV8].mp3
+6:3 - Max Normal - Watkin Tudor Jones [SiLqK59icUg].mp3
+7:I Think That I Would Die [SI8RmHw1QpY].mp3
+8:Watkin Tudor Jones - Memoirs of a Clone [SzfRWBJoQ9E].mp3
+9:WATKIN TUDOR JONES - VISITOR [y1IU46Pc4lY].mp3
+10:You're The Only One [eebvMelqDLY].mp3
+11:Sweet '69 [_4gelHo_QbA].mp3
+12:Tango For Taj Music Rockstar 320 Kbps.mp3
+13:The Dichotomy Of Fame Featuring Balesh On Shehnai, Kabuli On Guitars Rockstar 320 Kbps.mp3
+14:Dust Cake Boy [qPDRo8G7FU8].mp3
+15:Demirep [lpG-ya1M7Tg].mp3
+16:Tango For Taj Music Rockstar 320 Kbps.mp3
+17:The Dichotomy Of Fame Featuring Balesh On Shehnai, Kabuli On Guitars Rockstar 320 Kbps.mp3
+18:Tango For Taj Music Rockstar 320 Kbps.mp3
+19:The Dichotomy Of Fame Featuring Balesh On Shehnai, Kabuli On Guitars Rockstar 320 Kbps.mp3
+20:I Like Fucking [ZI8TwDbaAHo].mp3
+21:Tango For Taj Music Rockstar 320 Kbps.mp3
+22:The Dichotomy Of Fame Featuring Balesh On Shehnai, Kabuli On Guitars Rockstar 320 Kbps.mp3
+playlist_end
