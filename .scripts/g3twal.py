@@ -32,7 +32,7 @@ def downloadWal(url):
     wallpaper = requests.get(url)
     ext = os.path.splitext(url)[1]
     wallpaper_name = gen_id()
-    save_path = f"/home/king/pix/wallpapers/{wallpaper_name}{ext}"
+    save_path = f"/home/ghost/pix/wallpapers/{wallpaper_name}{ext}"
     open(save_path,"wb").write(wallpaper.content)
 
 walurls = get_links(str(sys.argv[1]))

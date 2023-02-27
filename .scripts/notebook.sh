@@ -7,12 +7,12 @@ if [[ ! -d $path ]]; then
 fi
 ops=$(echo -e "ADD\nEDIT\nREAD\nDELETE" | rofi -dmenu -i -p "Notebook")
 case "$ops" in
-    "ADD") addnote=$(rofi -dmenu -p "Enter file name") && st -e nvim "$path/$addnote.txt"
+    "ADD") addnote=$(rofi -dmenu -p "Enter file name") && kitty -e nvim "$path/$addnote.txt"
         ;;
-    "EDIT") editnote=$(ls $path | rofi -dmenu -i -p "select") && st -e nvim "$path/$editnote"
+    "EDIT") editnote=$(ls $path | rofi -dmenu -i -p "select") && kitty -e nvim "$path/$editnote"
         ;;
-    "READ") readnote=$(ls $path | rofi -dmenu -i -p "select") && st -e nvim "$path/$readnote"
+    "READ") readnote=$(ls $path | rofi -dmenu -i -p "select") && kitty -e nvim "$path/$readnote"
         ;;
-    "DELETE") delnote=$(ls $path | rofi -dmenu -i -p "select") && st -e rm "$path/$delnote"
+    "DELETE") delnote=$(ls $path | rofi -dmenu -i -p "select") && kitty -e rm "$path/$delnote"
         ;;
 esac
