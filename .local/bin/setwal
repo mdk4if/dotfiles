@@ -1,0 +1,22 @@
+#!/bin/sh
+
+wal=$(find ~/pix/ | shuf -n 1)
+wal -c
+setwal_x(){
+wal -i $wal
+pywal.sh $wal
+}
+setwal_w(){
+  swww query || swww init
+  swww img $wal
+  wal -i $wal
+}
+# Get the current desktop session
+desktop=$(echo $XDG_SESSION_TYPE)
+# Check if the current desktop session is Wayland
+if [ "$desktop" = "wayland" ]; then
+  setwal_w 
+else
+  setwal_x
+fi
+
